@@ -1,9 +1,7 @@
-n = input("Introduce el primerNumero: ")
-k = input("Introduce el segundoNumero: ")
-n = int(n)
-k = int(k)
+n = int(input("Introduce el primerNumero: "))
+k = int(input("Introduce el segundoNumero: "))
 
-for i in range(1, k + 1 ):
-    resultado = n * i
-    print(f"{n} * {i} = {resultado}")
+for linea in range(1, k + 1 ):
+    resultado = n * linea
+    print(f"{n} * {linea} = {resultado}")
 print("||Fin||")
