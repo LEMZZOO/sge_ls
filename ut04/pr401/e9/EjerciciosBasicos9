@@ -15,4 +15,5 @@ else:
         print(siguiente, end=" ")
         a, b = b, siguiente
 
-    print()  
+
+ 
