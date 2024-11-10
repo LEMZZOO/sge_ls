@@ -1,3 +1,3 @@
 # EJERCICIOS 404
-
-## [pr404](EjerciciosDiccionarios.ipynb.md)
+> Ejercicios Diccionarios
+## [pr404](EjerciciosDiccionarios.ipynb)
