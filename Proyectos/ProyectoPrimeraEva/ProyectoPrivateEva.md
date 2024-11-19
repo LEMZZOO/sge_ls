@@ -9,7 +9,7 @@ Este proyecto implementa un sistema de gestión de tareas pendientes que permite
 
 ---
 
-## Módulo Principal (`Main.py`)
+## Módulo Principal (`Main.py`) {#modulo-principal-mainpy}
 Este módulo contiene la función principal del programa que inicia el menú de usuario. Incluye opciones para:
 - Agregar una nueva tarea.
 - Listar tareas pendientes y completadas.
@@ -77,7 +77,7 @@ menu()
 
 ```
 
-## Módulo de Gestión de Tareas (`Tarea.py`)
+## Módulo de Gestión de Tareas (Tarea.py) {#modulo-de-gestion-de-tareas-tareapy}
 Este módulo gestiona la lista de tareas mediante las siguientes funcionalidades:
 
 - Agregar tarea: Permite registrar tareas con nombre, prioridad, y fecha límite.
@@ -145,7 +145,7 @@ def eliminarTarea(indice):
 
 ```
 
-## Módulo de Guardar y Cargar Tareas (GuardarCargarTarea.py)
+## Módulo de Guardar y Cargar Tareas (GuardarCargarTarea.py) {#modulo-de-guardar-y-cargar-tareas-guardarcargartareapy}
 Este módulo gestiona la persistencia de datos, permitiendo guardar y cargar tareas desde un archivo CSV:
 
 - Guardar en CSV: Almacena todas las tareas en un archivo CSV utilizando el módulo csv.
