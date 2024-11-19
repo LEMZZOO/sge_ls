@@ -3,7 +3,7 @@ import GuardarCargarTarea
 # Esta clase es la que me permite cambiar los colores y el fondo.
 from colorama import Back, Fore, Style, init
 # Para que los colores vuelvan a su estado original despues de cada mensaje, para evitar el uso constante de reset.
-# He probado lo de los colores sin poner el init() y funciona igualmente, pero en internet dice que hay que ponerlo para que funcione1
+# He probado lo de los colores sin poner el init() y funciona igualmente, pero en internet dice que hay que ponerlo para que funcione.
 init(autoreset=True)
 
 #
@@ -20,7 +20,7 @@ def menu():
         opcion = input(Back.BLACK + Style.BRIGHT + Fore.LIGHTWHITE_EX + "Selecciona una opción: ")
 
         if opcion == "1":
-            nombre = input(Fore.GREEN + "Nombre de la tarea: ")
+            nombre = input(Back.BLACK + Style.BRIGHT + Fore.GREEN + "Nombre de la tarea: ")
             prioridad = input(Fore.GREEN + "Prioridad (alta, media, baja): ")
             fecha_limite = input(Fore.GREEN + "Fecha límite (YYYY-MM-DD): ")
             Tarea.agregarTarea(nombre, prioridad, fecha_limite)
