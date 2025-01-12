@@ -1,4 +1,4 @@
 # EJERCICIOS 405
 
 ## [pr501](pr501/gestorReservas.md)
-## [pr502](pr502/index.md)
+## [pr502](pr502/biblioteca.md)

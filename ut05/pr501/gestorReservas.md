@@ -100,5 +100,5 @@ class gestor_reservas(models.Model):
 </odoo>
 ```
 
-![Texto alternativo](captura_gestor_reservas.png "Título opcional")
+![](captura_gestor_reservas.png "Gestor resevas")
 
