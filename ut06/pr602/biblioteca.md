@@ -1,5 +1,7 @@
 # Library_ls
 
+### Antes de nada siempre descomento el fichero access en manifest.
+
 ## init.py
 
 ```python
