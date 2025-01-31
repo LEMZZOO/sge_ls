@@ -1,6 +1,6 @@
 # EJERCICIO 604
 
-# stock_management
+# Suscripcion
 
 ### Antes de nada siempre descomento el fichero access en manifest.
 
